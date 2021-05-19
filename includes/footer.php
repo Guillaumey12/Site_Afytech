@@ -20,7 +20,7 @@
 			<a href="#">
 				<i class="fab fa-linkedin-in"></i>
 			</a>
-			<a href="#">
+			<a href="mailto:contact@afyetch.com">
 				<i class="far fa-envelope"></i>
 			</a>
 		</p>
@@ -82,5 +82,5 @@
 	</div>
 </footer>
 <div id="copy">
-<p> Copyright &copy; 2021 <a href="#">Afytech</a> all rights reserved.</p>
+<p> Copyright &copy; 2021 <a href="index.php">Afytech</a> all rights reserved.</p>
 </div>

@@ -11,7 +11,11 @@
 }
 
 body{
-    font-family: 'Roboto'sans-serif;
+    font-family: 'Roboto'sans-serif!important;
+}
+
+p,h1,h2,h3,h4,h5,h6,a,span{
+    font-family: 'Roboto',sans-serif !important;
 }
 
 /*    ****************** HEADER  ****************** */
@@ -28,14 +32,14 @@ header div.logo{
 }
 
 header nav{
-    width: 90%;
+    width: 80%;
 }
 
 header nav ul{
     display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-left: 55%;
+	margin-left: 60%;
 	list-style-type:none;
     max-width: 40%;
     

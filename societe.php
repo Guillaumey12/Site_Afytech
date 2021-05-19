@@ -8,9 +8,9 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
         <link rel="shortcut icon" href="images/logo-2.jpg">
-        <title>Afytech | Société</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">        <title>Afytech | Société</title>
     </head>
 <body>
     <!-- Header -->
@@ -39,7 +39,7 @@
             <div class="row card_lign">
                 <div class="col col-lg-4 col-md-6 col-sm-6">
                     <div class="card" style="width: 18rem;">
-                        <a href="service.html#developpement"><img src="images/afytech Image developpement web.png" class="card-img-top" alt="..."></a> 
+                        <a href="service.php#developpement"><img src="images/afytech Image developpement web.png" class="card-img-top" alt="..."></a> 
                         <div class="card-body">
                           <h6 class="card-text">Développement d'application de grande envergure.</h6>
                         </div>
@@ -47,7 +47,7 @@
                 </div>
                 <div class="col col-lg-4 col-md-6 col-sm-6">
                     <div class="card" style="width: 18rem;">
-                        <a href="service.html#camera"><img src="images/afytech  Image c améra de surveillance.png" class="card-img-top" alt="..."></a>
+                        <a href="service.php#camera"><img src="images/afytech  Image c améra de surveillance.png" class="card-img-top" alt="..."></a>
                         <div class="card-body">
                           <h6 class="card-text">Mise en place de système de surveillance et sécurité.</h6>
                         </div>
@@ -55,7 +55,7 @@
                 </div>
                 <div class="col col-lg-4 col-md-6 col-sm-6">
                     <div class="card" style="width: 18rem;">
-                        <a href="service.html#produit"><img src="images/afytech  Image gestion de batiment.png" class="card-img-top" alt="..."></a>
+                        <a href="service.php#produit"><img src="images/afytech  Image gestion de batiment.png" class="card-img-top" alt="..."></a>
                         <div class="card-body">
                           <h6 class="card-text">Distribution des Produits</h6>
                         </div>
@@ -64,7 +64,7 @@
   
                     <div class="col col-lg-4 col-md-6 col-sm-6">
                         <div class="card" style="width: 18rem;">
-                            <a href="service.html#maintenance"><img src="images/afytech  Image Contrat de maintenance.png" class="card-img-top" alt="..."></a>
+                            <a href="service.php#maintenance"><img src="images/afytech  Image Contrat de maintenance.png" class="card-img-top" alt="..."></a>
                             <div class="card-body">
                               <h6 class="card-text">Contrat de maintenance informatique.</h6>
                             </div>
@@ -72,7 +72,7 @@
                     </div>
                     <div class="col col-lg-4 col-md-6 col-sm-6">
                         <div class="card" style="width: 18rem;">
-                            <a href="service.html#reseau"><img src="images/afytech  Image Réseau informatique.png" class="card-img-top" alt="..."></a>
+                            <a href="service.php#reseau"><img src="images/afytech  Image Réseau informatique.png" class="card-img-top" alt="..."></a>
                             <div class="card-body">
                               <h6 class="card-text">Mise en place de réseaux informatique.</h6>
                             </div>
@@ -80,7 +80,7 @@
                     </div>
                     <div class="col col-lg-4 col-md-6 col-sm-6">
                         <div class="card" style="width: 18rem;">
-                            <a href="service.html#conference"><img src="images/afytech  Image Visioconférence.png" class="card-img-top" alt="..."></a>
+                            <a href="service.php#conference"><img src="images/afytech  Image Visioconférence.png" class="card-img-top" alt="..."></a>
                             <div class="card-body">
                               <h6 class="card-text">Mise en place de système de conférence audio et visioconférencce.</h6>
                             </div>

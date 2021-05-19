@@ -1,0 +1,603 @@
+/*    ****************** FORMATAGE  ****************** */
+*,
+::after,
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none ;
+}
+
+body{
+    font-family: 'Roboto'sans-serif;
+}
+
+/*    ****************** HEADER  ****************** */
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1% 0;
+}
+
+header div.logo{
+    width: 9%;
+}
+
+header nav{
+    width: 90%;
+}
+
+header nav ul{
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 55%;
+	list-style-type:none;
+    max-width: 40%;
+    
+}
+
+header nav ul li a:hover{
+    color: darkorange;
+}
+
+header nav ul li a{
+	color: #222831;
+	text-decoration:none;
+	text-align:center;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+/*    ****************** MENU VERTICALE ****************** */
+
+#menu{
+	float: right;
+    display: none;
+}
+
+#menu #menuv{
+	position: relative;
+	display: none;
+    float: right;
+}
+
+#menu #menuv ul{
+	list-style-type: none;
+	width: 225px;
+}
+
+#menu #menuv ul li{
+	margin-left: 15px;
+	padding: 8px 0px;
+	cursor: pointer;
+	border-bottom: 1px solid black;
+}
+
+#menu #menuv ul li:hover{
+	background: darkorange;
+	color: #fff; 
+}
+
+#menu #menuv ul li a{
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+/*    ****************** FOOTER  ****************** */
+footer{
+	display: flex;
+	align-items: center;
+	margin: auto;
+	background:  #474444;
+	color: #FFFFFF;
+}
+
+#gauche h1{
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 67px;
+    color: #FFFFFF;
+}
+
+#gauche p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #F8F8F8;
+    opacity: 0.85;
+    margin: 20px 0;
+    text-align: justify;
+}
+
+#gauche{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	max-width: 30%;
+	padding-right: 95px;
+	margin-left: 50px;
+}
+
+#gauche p.logo{
+    display: flex;
+    justify-content: space-between;
+    width: 33%;
+    min-width: 300px;
+    margin: auto;
+}
+
+#gauche p.logo a:hover{
+    border: 1px solid darkorange;
+    color: darkorange;
+}
+
+#gauche p.logo a{
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    width: 44px;
+    height: 44px;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+#droite{
+	display: flex;
+	max-width: 70%;
+    margin: auto;
+}
+
+#droite h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FF840D;
+}
+
+.colone{
+	margin-right: 25px;
+}
+
+#droite .colone ul{
+	list-style: none;
+	margin-top: 35px;
+    padding-left: 0;
+}
+
+#droite a{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#copy{
+    background:  #474444;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#copy p{
+    color: black;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+#copy p a{
+    color: black;
+}
+
+#copy p a:hover{
+    color: #FF840D;
+}
+
+
+/*    ****************** CONTENANT PAGE D'ACCUEIL  ****************** */
+#contenant{
+    align-items: center;
+    margin: 5%;
+    background: rgb(255 163 62 / 14%);
+}
+
+#contenant .contenu{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#contenant .contenu .scontenu2{
+    background-image: url(./images/image2.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#contenant .contenu .scontenu3{
+    background-image: url(./images/image3.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#contenant .contenu .scontenu1, .scontenu4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#contenant .contenu .scontenu1, .scontenu4 p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    padding: 8%;
+
+}
+
+@media screen and (max-width: 1200px) {
+    #contenant .contenu .scontenu1, .scontenu4 p{
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+    
+    }
+
+    #contact #hautcontact h1{
+        font-size: 30px !important;
+    }
+
+    header nav ul{
+        margin-left: 40%;
+        max-width: none;  
+    }
+
+    #contact #bascontact{
+        flex-direction: column;
+        background-color: rgba(255, 163, 62, 0.05);
+    }
+
+    #bascontact section.cgauche{
+        min-width: 100%;
+    }
+
+    #bascontact section.cgauche .map{
+        margin-top: -37px;
+    }
+
+    #bascontact section.cdroite{
+        min-width: 100%;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    #contenant .contenu .scontenu1, .scontenu4 p{
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 15px;
+    
+    }
+
+    header nav ul{
+        margin-left: 15%;
+    }
+
+    footer{
+        align-items: none;
+        margin: none;
+        flex-direction: column;
+    }
+
+    #gauche{
+        max-width: none;
+        padding-right: 45px;
+    }
+
+    #gauche p.logo{
+        margin: 0;
+    }
+
+    #bascontact section.cgauche .map{
+        margin-top: 0;
+    }
+
+    #droite{
+        max-width: none;
+        margin-left: 50px;
+        margin-right: 5px;
+        margin-top: 15px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    #contenant .contenu .scontenu1, .scontenu4 p{
+        font-weight: 500;
+        font-size: 8px;
+        line-height: 11px;
+    
+    }
+
+    header nav{
+        display: none;
+    }
+
+    header div.logo {
+        width: 93%;
+    }
+
+    #menu{
+        display: block;
+    }
+
+    #droite{
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    #bascontact section.cgauche .map iframe{
+        width: 200px;
+    }
+}
+
+/*    ****************** SLIDER ****************** */
+.carousel-indicators [data-bs-target] {
+    background-color: #E86A34;
+}
+
+
+/*    ****************** PAGE CONTACTS ****************** */
+#contact{
+    background:rgba(255, 163, 62, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 200px;
+}
+
+#contact #hautcontact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 3%;    
+}
+
+#contact #hautcontact h1{
+    font-family: 'Roboto', sans-serif;
+    color: #90340C;
+    margin-bottom: 3%;
+}
+
+#contact #hautcontact p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 14px;
+    color: #474444;
+}
+
+#contact #bascontact{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+}
+
+#bascontact section.cgauche{
+    width: 50%;
+    height: 450px;
+    padding-top: 4%;
+    padding-left: 5%;
+    padding-right: 2%;
+    display: flex;
+    flex-direction: column;
+    background: #FF840D;
+    border-radius: 14px;
+}
+
+#bascontact section.cgauche h3{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+    margin-bottom: 5%;
+}
+
+#bascontact section.cgauche p{
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
+}
+
+#bascontact section.cgauche ul{
+    margin-left:5% ;
+}
+
+#bascontact section.cgauche ul li{
+    margin-bottom: 6%;
+}
+
+#bascontact section.cgauche ul li i{
+    margin-right: 5%;
+    color: #fff;
+}
+
+#bascontact section.cgauche ul li a{
+    color: #fff;
+    font-size: 13px;
+}
+
+#bascontact section.cgauche .map{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bascontact section.cdroite{
+    width: 50%;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 3%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 14px;
+    background: #fff;
+
+}
+
+#bascontact section.cdroite form .formulaire{
+    display: flex;
+    flex-direction: column;
+}
+
+#bascontact section.cdroite form .formulaire label{
+    letter-spacing: 1px;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+#bascontact section.cdroite form .formulaire input{
+    margin-bottom: 20px;
+    border-bottom: 1px solid #FF840D;
+    border-top: antiquewhite;
+    border-left: antiquewhite;
+    border-right: antiquewhite;
+    padding: 10px;
+}
+
+#bascontact section.cdroite form .formulaire textarea{
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border: antiquewhite;
+    background: rgba(255, 163, 62, 0.07);
+    padding-bottom: 50px;
+    transition: 0.2;
+    resize: none;
+    height: 100px;
+}
+
+#bascontact section.cdroite form input.button{
+    float: right;
+    border: 1px solid #FF840D; 
+    background: #FF840D; 
+    color: #fff;
+    border-radius: 18px;
+    padding: 13px 30px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+/*    ****************** PAGE SOCIETE ****************** */
+div.title_image{
+    background-image: url('images/afytech_service.png'); 
+    height: 400px; 
+    background-repeat: no-repeat; 
+    background-size: 100rem;
+    background-position: center;
+    text-align: center;
+    margin: 0px;  
+}
+
+div#section_deux{
+    background-color: rgba(255, 163, 62, 0.05);
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+div.col{
+    margin-bottom: 5rem;
+}
+
+divcard_lign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center; 
+}
+
+div.titre h2
+{
+    color: #E86A34;
+   margin-bottom: 2rem;
+   font-size: 1.7rem;
+}
+
+div.container p{
+    text-align: justify;
+    font-family: 'roboto sans serif';
+    font-size: 1.2rem;
+}
+
+div.paragraphe1{
+    margin-top: 3rem;
+}
+
+div.card-body h6{
+    height: 3rem;
+}
+
+div.paragraphe1{
+    margin-top: 3rem;
+}
+
+
+
+
+/*    ****************** PAGE SERVICE ****************** */
+div.title_image{
+    background-image: url('images/afytech_service.png'); 
+    height: 400px; 
+    background-repeat: no-repeat; 
+    background-size: 100rem;
+    background-position: center;
+    text-align: center;
+    margin: 0px; 
+    }
+
+    div[class*='paragraphe'] {
+    background-color: rgba(255, 163, 62, 0.05);
+    padding: 20px;
+    border-radius: 0px 40px 0px 40px;
+    border-top: 4px solid #FF840D;
+    border-left: 1px solid #FF840D;
+    border-right: 1px solid #FF840D;
+    margin-bottom: 3rem;
+} 
+
+div h1
+{
+    color: #E86A34;
+    position: relative;
+    top: 40%;
+    font-size: 4rem;
+}
+
+    

@@ -36,7 +36,7 @@
     <div class="container" id="section_deux">
         <div class= "container titre"><h2>Nous évoluons dans plusieurs domaines à savoir:</h2></div> 
         <div id="card">
-            <div class="row card_lign">
+            <div class="row card_lign" id="card_complet">
                 <div class="col col-lg-4 col-md-6 col-sm-6">
                     <div class="card" style="width: 18rem;">
                         <a href="service.php#developpement"><img src="images/afytech Image developpement web.png" class="card-img-top" alt="..."></a> 
@@ -62,30 +62,30 @@
                       </div>
                 </div>
   
-                    <div class="col col-lg-4 col-md-6 col-sm-6">
-                        <div class="card" style="width: 18rem;">
-                            <a href="service.php#maintenance"><img src="images/afytech  Image Contrat de maintenance.png" class="card-img-top" alt="..."></a>
-                            <div class="card-body">
-                              <h6 class="card-text">Contrat de maintenance informatique.</h6>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col col-lg-4 col-md-6 col-sm-6">
-                        <div class="card" style="width: 18rem;">
-                            <a href="service.php#reseau"><img src="images/afytech  Image Réseau informatique.png" class="card-img-top" alt="..."></a>
-                            <div class="card-body">
-                              <h6 class="card-text">Mise en place de réseaux informatique.</h6>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col col-lg-4 col-md-6 col-sm-6">
-                        <div class="card" style="width: 18rem;">
-                            <a href="service.php#conference"><img src="images/afytech  Image Visioconférence.png" class="card-img-top" alt="..."></a>
-                            <div class="card-body">
-                              <h6 class="card-text">Mise en place de système de conférence audio et visioconférencce.</h6>
-                            </div>
-                          </div>
-                    </div>
+                <div class="col col-lg-4 col-md-6 col-sm-6">
+                    <div class="card" style="width: 18rem;">
+                        <a href="service.php#maintenance"><img src="images/afytech  Image Contrat de maintenance.png" class="card-img-top" alt="..."></a>
+                        <div class="card-body">
+                          <h6 class="card-text">Contrat de maintenance informatique.</h6>
+                        </div>
+                      </div>
+                </div>
+                <div class="col col-lg-4 col-md-6 col-sm-6">
+                    <div class="card" style="width: 18rem;">
+                        <a href="service.php#reseau"><img src="images/afytech  Image Réseau informatique.png" class="card-img-top" alt="..."></a>
+                        <div class="card-body">
+                          <h6 class="card-text">Mise en place de réseaux informatique.</h6>
+                        </div>
+                      </div>
+                </div>
+                <div class="col col-lg-4 col-md-6 col-sm-6">
+                    <div class="card" style="width: 18rem;">
+                        <a href="service.php#conference"><img src="images/afytech  Image Visioconférence.png" class="card-img-top" alt="..."></a>
+                        <div class="card-body">
+                          <h6 class="card-text">Mise en place de système de conférence audio et visioconférencce.</h6>
+                        </div>
+                      </div>
+                </div>
                 
            </div>
         </div>

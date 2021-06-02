@@ -4,11 +4,11 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-        <link rel="shortcut icon" href="images/logo-2.jpg">
+        <link rel="shortcut icon" href="images/logo_afy.png">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">        <title>Afytech | Société</title>
     </head>
@@ -16,6 +16,10 @@
     <!-- Header -->
     <?php include '/includes/header.php'; ?>
     <!-- end Header -->
+
+    <div class="title_image1">
+       <img src="images/Afytech_societe_image.jpeg" alt="image societe" class="fadeInDown">
+    </div>
 
     <div class="container " id="section_un">
         <p>
@@ -39,51 +43,57 @@
             <div class="row card_lign" id="card_complet">
                 <div class="col col-lg-4 col-md-6 col-sm-6">
                     <div class="card" style="width: 18rem;">
-                        <a href="service.php#developpement"><img src="images/afytech Image developpement web.png" class="card-img-top" alt="..."></a> 
+                        <a href="service.php#developpement1"><img src="images/afytech Image developpement web.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h6 class="card-text">Développement d'application de grande envergure.</h6>
                         </div>
+                        </a> 
                     </div>
                 </div>
                 <div class="col col-lg-4 col-md-6 col-sm-6">
                     <div class="card" style="width: 18rem;">
-                        <a href="service.php#camera"><img src="images/afytech  Image c améra de surveillance.png" class="card-img-top" alt="..."></a>
+                        <a href="service.php#camera1"><img src="images/afytech_caméra_de_sueveillance.jpg" class="card-img-top" alt="afytech_caméra_de_sueveillance">
                         <div class="card-body">
                           <h6 class="card-text">Mise en place de système de surveillance et sécurité.</h6>
                         </div>
+                        </a> 
                       </div>
                 </div>
                 <div class="col col-lg-4 col-md-6 col-sm-6">
                     <div class="card" style="width: 18rem;">
-                        <a href="service.php#produit"><img src="images/afytech  Image gestion de batiment.png" class="card-img-top" alt="..."></a>
+                        <a href="service.php#produit1"><img src="images/afytech_distribution_de_prodiuts .jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h6 class="card-text">Distribution des Produits</h6>
                         </div>
+                        </a> 
                       </div>
                 </div>
   
                 <div class="col col-lg-4 col-md-6 col-sm-6">
                     <div class="card" style="width: 18rem;">
-                        <a href="service.php#maintenance"><img src="images/afytech  Image Contrat de maintenance.png" class="card-img-top" alt="..."></a>
+                        <a href="service.php#maintenance1"><img src="images/afytech  Image Contrat de maintenance.png" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h6 class="card-text">Contrat de maintenance informatique.</h6>
                         </div>
+                        </a> 
                       </div>
                 </div>
                 <div class="col col-lg-4 col-md-6 col-sm-6">
                     <div class="card" style="width: 18rem;">
-                        <a href="service.php#reseau"><img src="images/afytech  Image Réseau informatique.png" class="card-img-top" alt="..."></a>
+                        <a href="service.php#reseau1"><img src="images/afytech  Image Réseau informatique.png" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h6 class="card-text">Mise en place de réseaux informatique.</h6>
                         </div>
+                        </a> 
                       </div>
                 </div>
                 <div class="col col-lg-4 col-md-6 col-sm-6">
                     <div class="card" style="width: 18rem;">
-                        <a href="service.php#conference"><img src="images/afytech  Image Visioconférence.png" class="card-img-top" alt="..."></a>
+                        <a href="service.php#conference1"><img src="images/afytech  Image Visioconférence.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h6 class="card-text">Mise en place de système de conférence audio et visioconférencce.</h6>
                         </div>
+                        </a> 
                       </div>
                 </div>
                 
@@ -91,9 +101,9 @@
         </div>
     </div>
 
-    <!-- Header -->
+    <!-- Footer -->
     <?php include("includes/footer.php"); ?>
-    <!-- end Header -->
+    <!-- end Footer -->
 
     <script type="text/javascript" src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
